@@ -51,6 +51,17 @@ pip install -r requirements.txt
 
 
 
+## 1. Data 
+
+I am using data from the kaggle named "ct-kidney-dataset-normal-cyst-tumor-and-stone"
+```bash
+https://www.kaggle.com/datasets/nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone
+```
+As of now i have stored data in Google drive, and by making function we are getting data from there in zip file and then we unzip the data.
+
+## 2. Base Model
+
+I am using VGG16 Model, i have taken this model from the tensorflow and here i have freeze the all the layers excepted full connected Neural layers and used IMAGENET weights.
 
 
 
@@ -58,6 +69,16 @@ pip install -r requirements.txt
 
 
 
+
+### Creation for file and way of work i have done
+How i have completed this project, steps and workflow i have follow while creating the multiple file.
+## 1. Data Ingestion
+
+Ingested data from the google drive and stored in zip file and the unzip it.
+
+## 2. Prepare base model
+
+I am using VGG16 Model, i have taken this model from the tensorflow and here i have freeze the all the layers excepted full connected Neural layers and used IMAGENET weights.
 
 
 

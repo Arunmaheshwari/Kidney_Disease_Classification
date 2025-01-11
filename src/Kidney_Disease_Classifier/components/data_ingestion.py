@@ -1,6 +1,6 @@
 import os
 import gdown
-import kagglehub
+import zipfile
 from src.Kidney_Disease_Classifier import logger
 from src.Kidney_Disease_Classifier.utils.common import get_size
 from src.Kidney_Disease_Classifier.entity.config_entity import DataIngestionConfig
