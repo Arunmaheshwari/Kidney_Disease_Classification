@@ -64,6 +64,22 @@ As of now i have stored data in Google drive, and by making function we are gett
 I am using VGG16 Model, i have taken this model from the tensorflow and here i have freeze the all the layers excepted full connected Neural layers and used IMAGENET weights.
 
 
+## 3. Training
+
+Here i have have trained model by using keras library on my dataset and used pretrained VGG16 model. and stored in inside the artifacts folder named model.h5.
+
+
+## 4. Model evaluation
+
+I  evaluated the performance of the model by using
+    
+    Mlflow and Dagshub
+
+here by changing the the parameter, data, pretrained model as well, i can evaluate the performace of the model.
+
+By using Mlflow i can compare the different model performance as well.
+
+
 
 
 
@@ -79,6 +95,26 @@ Ingested data from the google drive and stored in zip file and the unzip it.
 ## 2. Prepare base model
 
 I am using VGG16 Model, i have taken this model from the tensorflow and here i have freeze the all the layers excepted full connected Neural layers and used IMAGENET weights.
+
+
+
+
+## 3. Training
+
+Here i have have trained model by using keras library on my dataset and used pretrained VGG16 model. and stored in inside the artifacts folder named model.h5.
+
+
+## 4. Model evaluation
+
+I  evaluated the performance of the model by using
+    
+    Mlflow and Dagshub
+
+here by changing the the parameter, data, pretrained model as well, i can evaluate the performace of the model.
+
+By using Mlflow i can compare the different model performance as well.
+
+Here i also got scores.json file, which tells me that most recent model evaluation performance.
 
 
 
