@@ -138,6 +138,15 @@ dvc dag
 ```
 
 
+## 6. Creation of files for prediction and UI
+
+To get the result or UI, here is command
+
+```bash
+python app.py
+```
+this will show me interface of my prediction and app.py file and by uploading the image there i can get the result.
+
 
 
 
