@@ -118,7 +118,18 @@ Here i also got scores.json file, which tells me that most recent model evaluati
 
 
 
+## 5. Integration of DVC
 
+Ingegrated DVC to ensure that again and again same data file will not excecute.
+
+command for running dvc -
+```bash
+dvc init
+```
+
+```bash
+dvc repro
+```
 
 
 
