@@ -131,6 +131,12 @@ dvc init
 dvc repro
 ```
 
+this command will show graphs of data flow
+
+```bash
+dvc dag
+```
+
 
 
 
